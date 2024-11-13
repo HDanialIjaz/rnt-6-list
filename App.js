@@ -12,14 +12,17 @@ const PersonData = () =>{
       }}
     />
           </View>
-          <Text>name</Text>
-          <Text>bio</Text>
+          <View style={style.box}>
+          <Text style = {style.name}>John Doe</Text>
+          <Text style={style.bio}>hajhg djh bjbd</Text>
+          </View>
     </View>
   );
 };
 
 const style = StyleSheet.create({
 container:{
+  flexDirection:'row',
  marginTop: 60,
     padding: 10,
     backgroundColor: 'white',
@@ -34,9 +37,21 @@ container:{
 },
 
 pic: {
-  width : 65,
-  height : 65,
+  width : 45,
+  height : 45,
   borderRadius: 30,
+},
+box:{
+flex:1,
+paddingHorizontal:20,
+},
+name:{
+  fontWeight: 'bold',
+  fontSize: 15,
+},
+bio:{
+  color: '#666',
+  marginTop:3,
 }
 });
 
