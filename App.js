@@ -10,19 +10,19 @@ const DATA = [
     bio: 'hajhg djh bjbd',
   },
   {
-    id: '',
+    id: '2',
     uri: 'https://next-images.123rf.com/index/_next/image/?url=https://assets-cdn.123rf.com/index/static/assets/top-section-bg.jpeg&w=3840&q=75',
     name: 'Hafiz Muhammad Muzamil ',
     bio: 'A short bio here.',
   },
   {
-    id: '',
+    id: '3',
     uri: 'https://plus.unsplash.com/premium_photo-1664474619075-644dd191935f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1hZ2V8ZW58MHx8MHx8fDA%3D',
     name: 'Jane Doe ',
     bio: 'A short bio here.',
   },
   {
-    id: '',
+    id: '4',
     uri: 'https://plus.unsplash.com/premium_photo-1664474619075-644dd191935f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1hZ2V8ZW58MHx8MHx8fDA%3D',
     name: 'Jane Doe ',
     bio: 'A short bio here.',

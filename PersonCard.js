@@ -23,7 +23,8 @@ const PersonData = ({Data}) =>{
 const style = StyleSheet.create({
 container:{
   flexDirection:'row',
-    padding: 10,
+    padding: 5,
+    margin:5,
     backgroundColor: 'white',
     borderRadius: 10,
     // iOS shadow
@@ -38,11 +39,12 @@ container:{
 pic: {
   width : 45,
   height : 45,
-  borderRadius: 30,
+  borderRadius: 25,
 },
 box:{
 flex:1,
 paddingHorizontal:20,
+marginTop:5
 },
 name:{
   fontWeight: 'bold',
@@ -50,7 +52,7 @@ name:{
 },
 bio:{
   color: '#666',
-  marginTop:3,
+  // marginTop:3,
 }
 });
 
